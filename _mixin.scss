@@ -1,0 +1,14 @@
+// миксины/// 
+@mixin flexbox {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@mixin ahover($colorTextMenu) {
+  color: ($colorTextMenu)*0.5;
+}
